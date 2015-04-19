@@ -16,7 +16,7 @@ and the ppa-requirements (if any) for the packages are listed in:
 
 Feel free to change the list of packages as per your needs.
 
-###Execution
+###Usage
 ```sh
 chmod +x install.sh
 ./install.sh
