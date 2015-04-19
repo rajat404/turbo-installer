@@ -1,0 +1,9 @@
+pyzmq
+jinja2
+tornado
+mistune
+jsonschema
+pygments
+terminado
+"ipython[all]"
+"ipython[notebook]"
