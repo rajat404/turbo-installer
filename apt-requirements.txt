@@ -33,3 +33,4 @@ npm
 p7zip-full
 xpad
 wget
+unity-tweak-tool

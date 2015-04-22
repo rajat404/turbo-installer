@@ -5,7 +5,7 @@ sudo sed -i 's/in.archive.ubuntu.com/mirror.dhakacom.com/' /etc/apt/sources.list
 xargs sudo add-apt-repository -y < ppa-requirements.txt
 sudo apt-get update
 sudo apt-get dist-upgrade
-sudo apt-get install -y boot-repair && boot-repair
+sudo apt-get install -y boot-repair
 
 xargs sudo apt-get install -y < apt-requirements.txt
 
