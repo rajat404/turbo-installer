@@ -3,4 +3,3 @@ ppa:webupd8team/y-ppa-manager
 ppa:keithw/mosh
 ppa:videolan/stable-daily
 ppa:yannubuntu/boot-repair
-ppa:indicator-brightness/ppa

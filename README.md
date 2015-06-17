@@ -21,3 +21,8 @@ Feel free to change the list of packages as per your needs.
 chmod +x install.sh
 ./install.sh
 ```
+
+###For brightness issues use the following links:
+* http://itsfoss.com/fix-brightness-ubuntu-1310/
+* https://github.com/lordamit/Brightness
+
