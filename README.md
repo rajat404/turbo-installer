@@ -10,15 +10,14 @@ Apart from that, all the packages to be installed are listed in:
 * pip-requirements.txt
 * apt-requirements.txt
 
-and the ppa-requirements (if any) for the packages are listed in:
+and the ppa-requirements (if any) for the packages are listed within install.sh
 
-* ppa-requirements.txt
 
 Feel free to change the list of packages as per your needs.
 
 ###Usage
 ```sh
-chmod +x install.sh
+chmod +x install.sh latest_sublime_dl.py
 ./install.sh
 ```
 
