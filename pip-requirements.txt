@@ -5,6 +5,5 @@ mistune
 jsonschema
 pygments
 terminado
-"ipython[all]"
-"ipython[notebook]"
 youtube-dl
+ipython

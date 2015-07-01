@@ -1,5 +1,0 @@
-ppa:webupd8team/nemo
-ppa:webupd8team/y-ppa-manager
-ppa:keithw/mosh
-ppa:videolan/stable-daily
-ppa:yannubuntu/boot-repair
