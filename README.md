@@ -24,4 +24,3 @@ chmod +x install.sh latest_sublime_dl.py
 ###For brightness issues use the following links:
 * http://itsfoss.com/fix-brightness-ubuntu-1310/
 * https://github.com/lordamit/Brightness
-

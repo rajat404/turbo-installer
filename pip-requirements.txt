@@ -7,3 +7,4 @@ pygments
 terminado
 youtube-dl
 ipython
+cheat
