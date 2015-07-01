@@ -22,6 +22,8 @@ wget $URL -O $FILE
 echo "Installing sublime text"
 sudo dpkg -i $FILE
 
+# To start ZSH shell
+zsh
 echo "Setting up Prezto"
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 

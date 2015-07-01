@@ -1,4 +1,3 @@
-tmux
 aptitude
 python-pip
 python-dev
@@ -20,7 +19,8 @@ zsh
 terminator
 vlc
 mosh
-nemo nemo-fileroller
+nemo 
+nemo-fileroller
 y-ppa-manager
 flashplugin-installer
 bzip2
