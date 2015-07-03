@@ -8,3 +8,4 @@ terminado
 youtube-dl
 ipython
 cheat
+hr
