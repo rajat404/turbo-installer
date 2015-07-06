@@ -38,3 +38,5 @@ nautilus-open-terminal
 build-essential
 libssl-dev
 libffi-dev
+libmysqlclient-dev
+meld
