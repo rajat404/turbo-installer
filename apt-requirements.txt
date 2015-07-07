@@ -40,3 +40,4 @@ libssl-dev
 libffi-dev
 libmysqlclient-dev
 meld
+tig
