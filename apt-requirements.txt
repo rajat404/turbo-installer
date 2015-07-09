@@ -41,3 +41,4 @@ libffi-dev
 libmysqlclient-dev
 meld
 tig
+oracle-java7-installer
