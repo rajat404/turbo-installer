@@ -19,7 +19,7 @@ zsh
 terminator
 vlc
 mosh
-nemo 
+nemo
 nemo-fileroller
 y-ppa-manager
 flashplugin-installer
@@ -42,3 +42,6 @@ libmysqlclient-dev
 meld
 tig
 oracle-java7-installer
+nautilus-open-terminal
+git-flow
+vagrant
