@@ -1,3 +1,4 @@
+lxml
 pyzmq
 jinja2
 tornado

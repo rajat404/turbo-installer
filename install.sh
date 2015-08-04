@@ -9,7 +9,7 @@ sudo add-apt-repository -y ppa:webupd8team/y-ppa-manager
 sudo add-apt-repository -y ppa:keithw/mosh
 sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:yannubuntu/boot-repair
-sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository -y ppa:webupd8team/java
 
 sudo apt-get -y update && sudo apt-get -y dist-upgrade
 
