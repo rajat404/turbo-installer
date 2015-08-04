@@ -22,7 +22,6 @@ mosh
 nemo
 nemo-fileroller
 y-ppa-manager
-flashplugin-installer
 bzip2
 curl
 gparted

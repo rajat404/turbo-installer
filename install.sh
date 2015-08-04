@@ -15,6 +15,9 @@ sudo apt-get -y update && sudo apt-get -y dist-upgrade
 
 xargs sudo apt-get install -y < apt-requirements.txt
 
+#can break the loop, thus kept separate
+sudo apt-get install -y flashplugin-installer
+
 sudo pip install -r pip-requirements.txt --upgrade
 
 echo "Downloading sublime-text3"
