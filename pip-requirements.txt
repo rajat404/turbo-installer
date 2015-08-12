@@ -8,5 +8,6 @@ pygments
 terminado
 youtube-dl
 ipython
+jupyter
 cheat
 hr

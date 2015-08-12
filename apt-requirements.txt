@@ -44,3 +44,4 @@ oracle-java7-installer
 nautilus-open-terminal
 git-flow
 vagrant
+libncurses5-dev
