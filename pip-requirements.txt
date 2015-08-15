@@ -11,3 +11,4 @@ ipython
 jupyter
 cheat
 hr
+thefuck

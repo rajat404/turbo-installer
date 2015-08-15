@@ -10,19 +10,30 @@ sudo add-apt-repository -y ppa:keithw/mosh
 sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 sudo add-apt-repository -y ppa:webupd8team/java
+sudo add-apt-repository -y ppa:saiarcot895/myppa
 
 sudo apt-get -y update && sudo apt-get -y dist-upgrade
-
 xargs sudo apt-get install -y < apt-requirements.txt
 
-#can break the loop, thus kept separate
+# can break the loop, thus kept separate
 sudo apt-get install -y flashplugin-installer
 
 sudo pip install -r pip-requirements.txt --upgrade
 
+# Installing latest version of Sublime Text
 echo "Downloading sublime-text3"
 FILE=`mktemp`
 URL=`python latest_sublime_dl.py`
 wget $URL -O $FILE
 echo "Installing sublime text"
 sudo dpkg -i $FILE
+
+echo "setting GOPATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+# Install hf --a fuzzy file finder
+go get -u github.com/hugows/hf
+
+echo "Re-updating and cleaning up"
+sudo apt-get -y update && sudo apt-get -y autoremove

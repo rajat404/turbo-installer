@@ -45,3 +45,5 @@ nautilus-open-terminal
 git-flow
 vagrant
 libncurses5-dev
+golang
+apt-fast
