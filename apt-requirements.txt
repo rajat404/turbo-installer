@@ -47,3 +47,11 @@ vagrant
 libncurses5-dev
 golang
 apt-fast
+nmap
+ranger
+caca-utils
+highlight
+atool
+w3m
+poppler-utils
+mediainfo
