@@ -17,7 +17,7 @@ Feel free to change the list of packages as per your needs.
 
 ###Usage
 ```sh
-chmod +x install.sh latest_sublime_dl.py
+chmod +x install.sh install_prezto.sh latest_sublime_dl.py
 ./install.sh
 ```
 
