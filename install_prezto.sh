@@ -12,4 +12,6 @@ ln -s ~/.zprezto/runcoms/zshenv ~/.zshenv
 ln -s ~/.zprezto/runcoms/zshrc ~/.zshrc
 
 zsh
+
+# Set ZSH as your default shell
 chsh -s /usr/bin/zsh
