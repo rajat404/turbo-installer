@@ -49,3 +49,5 @@ golang
 apt-fast
 nmap
 ranger
+sublime-text-installer
+bum

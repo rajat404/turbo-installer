@@ -11,6 +11,7 @@ sudo add-apt-repository -y ppa:videolan/stable-daily
 sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:saiarcot895/myppa
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
 
 sudo apt-get -y update && sudo apt-get -y dist-upgrade
 xargs sudo apt-get install -y < apt-requirements.txt
@@ -19,14 +20,6 @@ xargs sudo apt-get install -y < apt-requirements.txt
 sudo apt-get install -y flashplugin-installer
 
 sudo pip install -r pip-requirements.txt --upgrade
-
-# Installing latest version of Sublime Text
-echo "Downloading sublime-text3"
-FILE=`mktemp`
-URL=`python latest_sublime_dl.py`
-wget $URL -O $FILE
-echo "Installing sublime text"
-sudo dpkg -i $FILE
 
 echo "setting GOPATH"
 export GOPATH=$HOME/go
